@@ -4,22 +4,42 @@
         <meta charset="utf-8">
         <title>Google Homepage</title>
         <link rel="stylesheet" href="styles/styles.css">
+        <link ef="https://fonts.googleapis.com/css?family=Arial" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div class="topnav-left">
-            <a href="#About">About</a>
-            <a href="#Store">Store</a>
-        </div>
-        <div class="topnav-right">
-            <a href="#Gmail">Gmail</a>
-            <a href="#Images">Images</a>
-            </header>
-        </div>
-        <img src="Image files/googlelogo_color_272x92dp.png" alt ="Google logo">
-        <input type="text">
-        <div class="submit-buttons"> 
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky">
-        </div>
+        <header class="topnav">
+            <div class="topnav-left">
+                <a href="#About">About</a>
+                <a href="#Store">Store</a>
+            </div>
+            <div class="topnav-right">
+                <a href="#Gmail">Gmail</a>
+                <a href="#Images">Images</a>
+            </div>
+        </header>
+        <nav class="navigation-bar">
+            <div class="logo">
+                <img src="Image files/googlelogo_color_272x92dp.png" alt ="Google logo">
+            </div>
+            <div class="search-field">
+                <input type="text">
+            </div>
+            <div class="submit-buttons"> 
+                <input type="submit" id ="left" value="Google Search">
+                <input type="submit" id ="right" value="I'm Feeling Lucky">
+            </div>
+        </nav>
+        <footer class="bottomnav">
+            <div class="bottomnav-left">
+                <a href="#Advertising">Advertising</a>
+                <a href="#Business">Business</a>
+                <a href="#How Search works">How Search works</a>
+            </div>
+            <div class="bottomnav-right">
+                <a href="#Privacy">Privacy</a>
+                <a href="#Terms">Terms</a>
+                <a href="#Settings">Settings</a>
+            </div>
+        </footer>
     </body>
 </html>
